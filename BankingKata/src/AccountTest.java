@@ -8,6 +8,7 @@ class AccountTest {
     private String fechaHoy() {
         return LocalDate.now().format(DateTimeFormatter.ofPattern("d.M.yyyy"));
     }
+
     @Test
     void ImprimeSoloLaCabecera() {
         Account cuenta = new Account();
@@ -38,4 +39,34 @@ class AccountTest {
                 + "\n" + fechaHoy() + "   -100      400";
         assertEquals(esperado, cuenta.printStatement());
     }
+
+
+/*
+    //ESTE TEST FALLA
+    //retirar MAS dinero
+    @Test
+    void retirarMasQueElSaldoEsInvalido() {
+        Account cuenta = new Account();
+        cuenta.deposit(100);
+        try {
+            cuenta.withdraw(101);
+            fail("Se esperaba IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Saldo insuficiente", e.getMessage());
+        }
+    }
+
+    //ingresar 0 o menos debe fallar
+    @Test
+    void ingresoNegativoEsInvalido() {
+        Account cuenta = new Account();
+        try {
+            cuenta.deposit(-50);
+            fail("Se esperaba IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+            assertEquals("El ingreso debe ser mayor que 0", e.getMessage());
+        }
+    }
+*/
+
 }
