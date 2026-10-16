@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="917af8f5-87b2-4ae7-bfd1-be0924324e59" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../BankingKata/BankingKata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingKata/BankingKata.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankingKata/src/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankingKata/src/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tiptime/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tiptime/.idea/gradle.xml" afterDir="false" />
-    </list>
+    <list default="true" id="917af8f5-87b2-4ae7-bfd1-be0924324e59" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
